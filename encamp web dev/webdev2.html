@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Home</title>
+    <style>
+        p {
+            color: chocolate;
+        }
+
+        body {
+            background-color: #FFFFFF;
+            max-width: 100vw;
+            
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            height: 15vh;
+            display: flex;
+            background-color: grey;
+            border: black dotted 2px;
+            /* width: 100vw; */
+
+        }
+
+        .navbar-items {
+            display: flex;
+            list-style: none;
+            width: 100%;
+            justify-content: space-between;
+            /* border: black solid; */
+        }
+
+        #navbar-content {
+            font-weight: bold;
+        }
+        .box{
+            background-color: gold;
+            width: 500px;
+            height: 500px;
+            border-radius: 20px;
+            /* margin: 100px 100px 100px 100px; */
+            margin-left: 100px;
+            box-shadow: black ;
+            padding-left: 100px;
+            padding-top: 100px;
+    
+        }
+        @keyframes myanimation{ from
+        
+        
+        
+        }
+        .content{
+            background-color: beige;
+            /* margin: auto; */
+            width: 200px;
+            height: 200px;
+            border-radius: 20px;
+            animation:myanimation;
+            animation-duration: 2s;
+        }
+        .content:hover{
+            background-color: white;
+        }
+        .dropdown{
+            list-style: none;
+        }
+        .dropdown-content{
+            display: none;
+        }
+        .dropdown:hover .dropdown-content{
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div class="navbar">
+            <ul class="navbar-items" id="navbar-content">
+                <li>
+                    <header>
+                        My Website
+                    </header>
+                </li>
+                <ul class="dropdown">
+                    <li id="one">dropdown</li>
+                    
+                    <li class="dropdown-content">Option 1</li>
+                    <li class="dropdown-content">Option 2</li>
+                </ul>
+                
+                
+                <li>Contact Us</li>
+                <li>About Us</li>
+            </ul>
+        </div>
+        <h1>This is html</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ipsa ad, atque magnam exercitationem aut
+            aspernatur numquam, <br>sapiente mollitia eveniet facilis natus quidem explicabo obcaecati! Distinctio et ad
+            molestiae non?</p>
+        <h2>Some points</h2>
+        <ul>
+            <li>html - the skelton</li>
+            <li>CSS - outer</li>
+            <li>Javscript - functionalities</li>
+        </ul>
+
+        <div>
+            <a href="https://www.ieeesbtkmce.in/">
+                <img src="./donut.jpg" alt="donut image" width="100" height="100" />
+            </a>
+            <button>
+                close
+            </button>
+        </div>
+        <div class="box">
+            <div class="content">
+             
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+body {
+  background-image: url("bg.jpg");
+  background-size: cover;
+}
+.image {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    left: 1100px;
+    top: 100px;
+  }
+  #link1 {
+    color: blueviolet;
+  }
+  .link {
+    font-size:25px;
+    position: absolute;
+    left: 490px;
+    top: 215px;
+  }
+  #mytext {
+    font-size: 25px;
+    color: black;
+font-family: Georgia;
+    position: absolute;
+    left: 100px;
+    top: 190px;
+  }
+  #mytext1 {
+    font-size: 30px;
+    color:brown;
+    text-decoration-line: underline;
+    position: absolute;
+    left: 1200px;
+    top: 30px;
+  }
+
+  

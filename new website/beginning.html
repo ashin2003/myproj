@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+ 
+
+    <header>
+      <nav>
+        <a href="about.html"><b>ABOUT</b></a>
+        <a href="contact.html"><b>CONTACT</b></a>
+        <a href="#contact"> <b>CONTACT</b></a>
+      </nav>
+    </header>
+    <main>
+      <section id="about">
+        <h1  style="color: beige;"><b>ABOUT ME</b></h1>
+        <p>My name is ASHIN and I am a web developer.</p>
+      </section>
+      <section id="projects">
+        <h1>My Projects</h1>
+        <ul>
+          <li>Project </li>
+          <li>Project 2</li>
+          <li>Project 3</li>
+
+        </ul>
+      </section>
+     
+    <section id="validation">  
+
+
+      <form>
+        <label for="data">Enter data:</label>
+        <input type="text" id="data">
+        <button type="button" onclick="redirect()">Go</button>
+    </form>
+    
+    <script>
+    function redirect() {
+        var data = document.getElementById("data").value;
+        if(data == "ashin"){
+        window.location.href = "about.html";
+    }
+    else if(data == "achu"){
+        window.location.href = "newl.html";
+    }
+    else{
+      window.location.href = "invalid.html";
+    }
+    }
+    </script>
+
+
+   </section>
+  
+      <section id="docs">
+        <h1>GALLERY</h1>
+      <a href="photo.html">
+        <button>PHOTOS</button>
+      </a> 
+      <a href="video.html">
+        <button>VIDEO</button>
+      </a>
+    </section>
+    </main>
+    <footer>
+      <p>Copyright ©2023 My Personal website</p>
+    </footer>
+  </body>
+</html>
